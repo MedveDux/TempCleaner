@@ -1,0 +1,30 @@
+# --- Файлы, создаваемые приложением во время работы ---
+temp_cleaner_config.json
+temp_cleaner_log.txt
+.tc_probe_*.tmp
+
+# --- Сборка PyInstaller / установщик ---
+build/
+dist/
+*.spec
+packaging/dist/
+packaging/build/
+packaging/*.tmp
+TempCleaner-Setup.exe
+temp_cleaner.py          # временная копия, создаётся build.bat из temp_cleaner.pyw
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# --- Редакторы и ОС ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
